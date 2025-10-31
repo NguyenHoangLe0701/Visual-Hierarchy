@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Chủ đề cơ bản cho app Compose -->
+    <style name="Theme.VisualHierarchy" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Compose Material3 không cần colorPrimary ở đây -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+</resources>
